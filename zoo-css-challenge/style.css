@@ -44,6 +44,7 @@ h5 {
   margin-bottom: 1em;
 }
 
+
 h1 {
   font-size: 250%;
 }
@@ -111,21 +112,24 @@ footer {
 }
 .image-container {
   display: grid;
-
   grid-template-columns: 25% 50% 25%;
   width: 100%;
   
  
 }
+.image-container img:nth-child(1){
+  border: 5px solid red;
+}
+.image-container img:nth-child(2){
+  border:5px solid orange
+}
+.image-container img:nth-child(3){
+  border:5px solid #f0e100;
+}
 
 .image-container img {
   vertical-align: top;
-  border: 5px solid #747c92;
   width: 100%;
-  
-  
-  
-  
 }
 
 .image-container img:first-of-type {
@@ -305,3 +309,4 @@ footer {
 #logo {
   border: none;
 }
+
