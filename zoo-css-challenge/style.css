@@ -2,6 +2,10 @@
   font-family: sans-serif;
   
 }
+body{
+  padding: 0;
+  margin: 0;
+}
 
 header {
   background-color: #211a1d;
@@ -110,13 +114,8 @@ footer {
   text-align: center;
   font-size: 125%;
 }
-.image-container {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  width: 100%;
-  
- 
-}
+
+
 .image-container img:nth-child(1){
   border: 5px solid red;
 }
@@ -129,12 +128,12 @@ footer {
 
 .image-container img {
   vertical-align: top;
-  width: 100%;
 }
 
-.image-container img:first-of-type {
+/*.image-container img:first-of-type {
   vertical-align: top;
-}
+}*/
+
 .tigers h2, h3{
   color: #E0E0E0;
 }
@@ -147,17 +146,22 @@ footer {
 .giraffe {
   background-color: #483C46;
   color: #BEEE62;
-  font-size: large;
+  
 }
+.giraffe p:first-of-type {
+  font-size: 20px;
+}
+
 
 .giraffe h2,h3 {
   color: #F4743B;
 }
 
+
 .news h2 {
-  
-  text-align:center !important;
+  text-align:center;
 }
+
 
 .card {
   display: inline-block;
@@ -235,24 +239,13 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
-  float: left;
- 
-}
-.programs .clearfix{
-  display: block;
-  visibility: hidden;
-  height: 0;
-  clear: both;
-}
-
-
-
-
-
+  display: inline-block;
+  }
+  
 .fav-animals h2{
   text-align: center;
   font-family: 'Karla', sans-serif;
+  
 }
 
 
